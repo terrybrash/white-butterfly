@@ -14,7 +14,8 @@ int angle_difference(int a1, int a2);
 
 void error_message_out(const char *errm);
 int delta_turn_towards_angle(int angle, int tangle, int turning);
-int delta_turn_towards_xy(int x1, int y1, int x2, int y2, int angle, int turning);
+int delta_turn_towards_xy(int x1, int y1, int x2, int y2, int angle,
+                          int turning);
 int pos_or_neg(int a);
 int odd_even(int v);
 char coin(void);
